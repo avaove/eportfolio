@@ -4,10 +4,15 @@
       "id": 1,
       "job": "DevOps/Automation Developer Intern",
       "at": "Seequet/Geosoft",
-      "img": "images/seequent.png",
+      "img": "/images/seequent.png",
       "skills": [
         "C#",
-        "GUI Auto Testing"
+        "React",
+        "Python",
+        "HTML/CSS/JS",
+        "Azure Kubernetes",
+        "Azure Monitor",
+        "CI/CD Pipeline"
       ],
       "date": "May 2021 - Dec 2021",
       "desc": [
@@ -17,16 +22,18 @@
         "Explored and documented latest monitoring and observability tools such as Datadog and Azure monitoring for Kubernetes cluster",
         "Developed interactive React dashboard for QA (link to sample version included below)"
       ],
-      "caption": "Desktop application Oasis Montaj"
+      "caption": "Desktop application Oasis Montaj",
+      "link": "https://www.seequent.com/"
     },
     {
       "id": 2,
       "job": "Machine Learning Research Assistant",
       "at": "Canadian Institute for Theoretical Astrophysics (CITA)",
-      "img": "images/dustmap.gif",
+      "img": "/images/dustmap.gif",
       "skills": [
-        "C#",
-        "GUI Auto Testing"
+        "Python",
+        "ML with Tensorflow",
+        "Jupyter Lab"
       ],
       "date": "May 2021 - Present",
       "desc": [
@@ -34,15 +41,45 @@
         "Designing and fine-tuning neural networks based on the physics involved in the problem",
         "Extensively utilizing tensorflow, scipy, sklearn, and matplotlib python libraries and Jupyter notebook to implement designs and test accuracy using noisy simulated data"
       ],
-      "caption": "Gaia's view of dust in the milky way “A 3D Dust Map Based on Gaia, Pan-STARRS 1, and 2MASS,” Gregory M. Green et al 2019 ApJ 887 93. https://iopscience.iop.org/article/10.3847/1538-4357/ab5362"
+      "caption": "Gaia's view of dust in the milky way “A 3D Dust Map Based on Gaia, Pan-STARRS 1, and 2MASS,” Gregory M. Green et al 2019 ApJ 887 93. https://iopscience.iop.org/article/10.3847/1538-4357/ab5362",
+      "link": "https://www.cita.utoronto.ca/"
+    },
+    {
+      "id": 3,
+      "job": "Frontend Web Developer",
+      "at": "University of Toronto (BRIDGE Program)",
+      "img": "",
+      "skills": [
+        "HTML/CSS/JS",
+        "Firebase",
+        "React"
+      ],
+      "date": "Jun 2020 – Aug 2020",
+      "desc": [
+        "Consulted with clients from local restaurants in Scarborough and researched ways to assist in elevating their web functionality to increase business marketing during the pandemic",
+        "Improved frontend navigations and design and created forms to gather user information through backend Firebase database"
+      ],
+      "caption": "",
+      "link": "https://www.utsc.utoronto.ca/thebridge/"
     }
   ],
-  "projects": [
+  "projs": [
     {
       "id": 1,
       "name": "Mock Unix Shell Application",
       "type": "Group project",
-      "img": "images/dustmap.gif",
+      "img": "/images/dustmap.gif",
+      "skills": [
+        "C#",
+        "GUI Auto Testing"
+      ],
+      "desc": "sdf"
+    },
+    {
+      "id": 2,
+      "name": "Mock Unix Shell Application",
+      "type": "Group project",
+      "img": "public/images/dustmap.gif",
       "skills": [
         "C#",
         "GUI Auto Testing"

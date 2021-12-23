@@ -5,9 +5,7 @@ body {
 }
 
 section {
-  /* margin-bottom: 120px !important;
-  margin-top: 120px !important; */
-  margin: 5% 15% 5% 15%;
+  margin: 100px 15% 100px 15%;
   position: relative;
 }
 
@@ -49,6 +47,11 @@ html {
   outline: 1px solid #747a8d;
   transition: all .3s linear;
   background-color:#0A192F   !important;
+  text-align: center !important;
+}
+.card-subtitle {
+  font-size: 18px !important;
+  font-weight: 800;
 }
 li {
   padding: 5px;
@@ -56,18 +59,21 @@ li {
 
 
 img {
-  padding: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
   padding-bottom: 10px;
+  margin: 0, auto;
 }
 
 
 #experience {
-  width: 80vh;
+  width: 88vh;
   margin: 0 auto;
-  
 }
 #home {
   padding: 200px;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 #projects {
@@ -103,6 +109,21 @@ button {
   padding-bottom: 30px !important;
   
 }
+.company {
+  font-size: 23px;
+  color: #3ca371;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -260,10 +281,6 @@ a {
   font-family: 'Inter', sans-serif;
 }
 
-.company {
-  font-size: 23px;
-  color: #64FFB4;
-}
 
 
 
