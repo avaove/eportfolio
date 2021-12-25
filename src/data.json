@@ -1,7 +1,6 @@
 {
   "experiences": [
     {
-      "id": 1,
       "job": "DevOps/Automation Developer Intern",
       "at": "Seequet/Geosoft",
       "img": "/images/seequent.png",
@@ -20,13 +19,15 @@
         "Initiated a large scale testing codebase refactoring, reducing more than 4.2k methods and 150k lines of code",
         "Developed GitHub Actions workflows and pipelines for automating the run of e2e web tests on virtual machines",
         "Explored and documented latest monitoring and observability tools such as Datadog and Azure monitoring for Kubernetes cluster",
-        "Developed interactive React dashboard for QA (link to sample version included below)"
+        "Developed interactive real-time React dashboard to monitor test execution statuses for QA (link to sample version included below)"
       ],
       "caption": "Desktop application Oasis Montaj",
-      "link": "https://www.seequent.com/"
+      "companylink": "https://www.seequent.com/",
+      "links": {
+        "dashboard": "https://avaove.github.io/auto-dashboard/"
+      }
     },
     {
-      "id": 2,
       "job": "Machine Learning Research Assistant",
       "at": "Canadian Institute for Theoretical Astrophysics (CITA)",
       "img": "/images/dustmap.gif",
@@ -42,10 +43,13 @@
         "Extensively utilizing tensorflow, scipy, sklearn, and matplotlib python libraries and Jupyter notebook to implement designs and test accuracy using noisy simulated data"
       ],
       "caption": "Gaia's view of dust in the milky way “A 3D Dust Map Based on Gaia, Pan-STARRS 1, and 2MASS,” Gregory M. Green et al 2019 ApJ 887 93. https://iopscience.iop.org/article/10.3847/1538-4357/ab5362",
-      "link": "https://www.cita.utoronto.ca/"
+      "companylink": "https://www.cita.utoronto.ca/",
+      "links": {
+        "github": "https://github.com/avaove/dust-map",
+        "docs": "https://docs.google.com/document/d/1_ITitG7YQdSR8rMf2kXE0ggdWRrlQ7sb4wdpFGiopB0/edit"
+      }
     },
     {
-      "id": 3,
       "job": "Frontend Web Developer",
       "at": "University of Toronto (BRIDGE Program)",
       "img": "",
@@ -60,12 +64,12 @@
         "Improved frontend navigations and design and created forms to gather user information through backend Firebase database"
       ],
       "caption": "",
-      "link": "https://www.utsc.utoronto.ca/thebridge/"
+      "companylink": "https://www.utsc.utoronto.ca/thebridge/",
+      "links": {}
     }
   ],
   "projs": [
     {
-      "id": 1,
       "name": "HomeyBot",
       "type": "Hackathon Project",
       "img": "/images/homeybot.png",
@@ -73,10 +77,10 @@
         "C#",
         "GUI Auto Testing"
       ],
-      "desc": "A discord bot that creates a safe space for the community, as dictated by the community. The goal is to use community-based decision-making to choose what is deemed as inappropriate words, graphic images, or sensitive subjects and how to deal with it."
+      "desc": "A discord bot that creates a safe space for the community, as dictated by the community. The goal is to use community-based decision-making to choose what is deemed as inappropriate words, graphic images, or sensitive subjects and how to deal with it.",
+      "links": {"": ""}
     },
     {
-      "id": 2,
       "name": "AccessMe",
       "type": "Hackathon Project",
       "img": "/images/accessme.png",
@@ -85,10 +89,13 @@
         "WebSpeechAPI",
         "DictionaryAPI"
       ],
-      "desc": "A chrome extension that provides an all-in-one solution to personalize your browsing experience and takes us one step closer to universal accessibility on the web."
+      "desc": "A chrome extension that provides an all-in-one solution to personalize your browsing experience and takes us one step closer to universal accessibility on the web.",
+      "links": {
+        "github": "",
+        "devpost": "https://devpost.com/software/accessme"
+      }
     },
     {
-      "id": 3,
       "name": "ePortfolio",
       "type": "Personal project",
       "img": "/images/ao.png",
@@ -96,10 +103,12 @@
         "HTML/CSS/JS",
         "React"
       ],
-      "desc": "A personalized eportfolio!"
+      "desc": "A personalized eportfolio!",
+      "links": {
+        "github": "https://github.com/avaove/eportfolio"
+      }
     },
     {
-      "id": 4,
       "name": "SpaceStuff",
       "type": "Personal project (WIP)",
       "img": "/images/trash.jpg",
@@ -107,21 +116,22 @@
         "OpenGL",
         "C++"
       ],
-      "desc": ""
+      "desc": "Developing an open-source geospatial application that displays and locates every known debris object orbiting Earth in real time.",
+      "links": {}
     },
     {
-      "id": 5,
       "name": "Mock Unix Shell Interface",
       "type": "Group project",
       "img": "/images/shell.jpg",
       "skills": [
         "Java",
-        "Speech API", 
+        "Speech API",
         "Agile",
         "Scrum",
         "TDD"
       ],
-      "desc": "Java"
+      "desc": "Java",
+      "links": {}
     }
   ]
 }

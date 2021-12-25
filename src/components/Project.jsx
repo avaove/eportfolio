@@ -27,12 +27,12 @@ const Project = () => {
       <div class="row">
         {projs.map((proj) => (
           <ProjCard
-            id={proj.id}
             img={proj.img}
             type={proj.type}
             name={proj.name}
             desc={proj.desc}
             skills={proj.skills}
+            links={proj.links}
           />
         ))}
       </div>
