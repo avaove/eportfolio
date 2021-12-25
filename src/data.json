@@ -66,29 +66,62 @@
   "projs": [
     {
       "id": 1,
-      "name": "Mock Unix Shell Application",
-      "type": "Group project",
-      "img": "/images/dustmap.gif",
+      "name": "HomeyBot",
+      "type": "Hackathon Project",
+      "img": "/images/homeybot.png",
       "skills": [
         "C#",
         "GUI Auto Testing"
       ],
-      "desc": "sdf"
+      "desc": "A discord bot that creates a safe space for the community, as dictated by the community. The goal is to use community-based decision-making to choose what is deemed as inappropriate words, graphic images, or sensitive subjects and how to deal with it."
     },
     {
       "id": 2,
-      "name": "Mock Unix Shell Application",
-      "type": "Group project",
-      "img": "public/images/dustmap.gif",
+      "name": "AccessMe",
+      "type": "Hackathon Project",
+      "img": "/images/accessme.png",
       "skills": [
-        "C#",
-        "GUI Auto Testing"
+        "HTML/CSS/JS",
+        "WebSpeechAPI",
+        "DictionaryAPI"
       ],
-      "desc": [
-        "Exploring deep learning, neural networks, and computational techniques to model the next generation of 3D dust maps",
-        "Designing and fine-tuning neural networks based on the physics involved in the problem",
-        "Extensively utilizing tensorflow, scipy, sklearn, and matplotlib python libraries and Jupyter notebook to implement designs and test accuracy using noisy simulated data"
-      ]
+      "desc": "A chrome extension that provides an all-in-one solution to personalize your browsing experience and takes us one step closer to universal accessibility on the web."
+    },
+    {
+      "id": 3,
+      "name": "ePortfolio",
+      "type": "Personal project",
+      "img": "/images/ao.png",
+      "skills": [
+        "HTML/CSS/JS",
+        "React"
+      ],
+      "desc": "A personalized eportfolio!"
+    },
+    {
+      "id": 4,
+      "name": "SpaceStuff",
+      "type": "Personal project (WIP)",
+      "img": "/images/trash.jpg",
+      "skills": [
+        "OpenGL",
+        "C++"
+      ],
+      "desc": ""
+    },
+    {
+      "id": 5,
+      "name": "Mock Unix Shell Interface",
+      "type": "Group project",
+      "img": "/images/shell.jpg",
+      "skills": [
+        "Java",
+        "Speech API", 
+        "Agile",
+        "Scrum",
+        "TDD"
+      ],
+      "desc": "Java"
     }
   ]
 }
