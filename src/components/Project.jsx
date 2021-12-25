@@ -1,5 +1,6 @@
 import { Button } from "react-bootstrap";
 import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBCardSubTitle, MDBBtn, MDBRipple } from 'mdb-react-ui-kit';
+import { FaGithub, FaDev } from "react-icons/fa";
 var data = require('../data.json');
 const projs = data["projs"];
 
@@ -12,8 +13,10 @@ const ProjCard = (props) => {
         <MDBCardTitle id='proj-title'>{props.name}</MDBCardTitle>
         <MDBCardSubTitle id='card-subtitle'>{props.type}</MDBCardSubTitle>
         <MDBCardText id='proj-text'>{props.desc}</MDBCardText>
+        <div>{props.skills.map((skill) => <Button disabled variant="dark">{skill}</Button>)}</div>
         <div>
-          {props.skills.map((skill) => <Button disabled variant="dark">{skill}</Button>)}
+          {"github" in props.links ? <a href={props.links["github"]}><FaGithub className="proj-icon" /></a> : null}
+          {"devpost" in props.links ? <a href={props.links["devpost"]}><FaDev className="proj-icon" /></a> : null}
         </div>
       </MDBCardBody>
     </MDBCard>

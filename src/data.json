@@ -1,6 +1,7 @@
 {
   "experiences": [
     {
+      "key": "0",
       "job": "DevOps/Automation Developer Intern",
       "at": "Seequet/Geosoft",
       "img": "/images/seequent.png",
@@ -28,6 +29,7 @@
       }
     },
     {
+      "key": "1",
       "job": "Machine Learning Research Assistant",
       "at": "Canadian Institute for Theoretical Astrophysics (CITA)",
       "img": "/images/dustmap.gif",
@@ -50,6 +52,7 @@
       }
     },
     {
+      "key": "2",
       "job": "Frontend Web Developer",
       "at": "University of Toronto (BRIDGE Program)",
       "img": "",
@@ -74,11 +77,15 @@
       "type": "Hackathon Project",
       "img": "/images/homeybot.png",
       "skills": [
-        "C#",
-        "GUI Auto Testing"
+        "Firebase",
+        "Python",
+        "GoogleVisionAPI"
       ],
       "desc": "A discord bot that creates a safe space for the community, as dictated by the community. The goal is to use community-based decision-making to choose what is deemed as inappropriate words, graphic images, or sensitive subjects and how to deal with it.",
-      "links": {"": ""}
+      "links": {
+        "github": "https://github.com/AnanyaPoddar/technica",
+        "devpost": "https://devpost.com/software/accessme"
+      }
     },
     {
       "name": "AccessMe",
@@ -91,21 +98,8 @@
       ],
       "desc": "A chrome extension that provides an all-in-one solution to personalize your browsing experience and takes us one step closer to universal accessibility on the web.",
       "links": {
-        "github": "",
-        "devpost": "https://devpost.com/software/accessme"
-      }
-    },
-    {
-      "name": "ePortfolio",
-      "type": "Personal project",
-      "img": "/images/ao.png",
-      "skills": [
-        "HTML/CSS/JS",
-        "React"
-      ],
-      "desc": "A personalized eportfolio!",
-      "links": {
-        "github": "https://github.com/avaove/eportfolio"
+        "github": "https://github.com/AnanyaPoddar/borderhacks",
+        "devpost": "https://devpost.com/software/friendly-guy-frank"
       }
     },
     {
@@ -130,8 +124,33 @@
         "Scrum",
         "TDD"
       ],
-      "desc": "Java",
+      "desc": "A Java application that provides cmd-line user interface along in a shell interface, along with a text-to-speech feature.",
       "links": {}
+    },
+    {
+      "name": "Earthquake Intensity Mapping App",
+      "type": "Personal project",
+      "img": "/images/eq-map.png",
+      "skills": [
+        "Python"
+      ],
+      "desc": "A python interface that maps earthquake intensity and finds the approximate affected population based on earthquake location, magnitude, population, depth, and population density.",
+      "links": {
+        "github": "https://github.com/avaove/eportfolio"
+      }
+    },
+    {
+      "name": "ePortfolio",
+      "type": "Personal project",
+      "img": "/images/ao.png",
+      "skills": [
+        "HTML/CSS/JS",
+        "React"
+      ],
+      "desc": "A personalized eportfolio!",
+      "links": {
+        "github": "https://github.com/avaove/eportfolio"
+      }
     }
   ]
 }

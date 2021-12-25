@@ -11,19 +11,19 @@ const ExpCard = (props) => {
       <MDBCardBody>
         <MDBCardTitle>{props.job}</MDBCardTitle>
         <MDBCardSubTitle><a className="company" href={props.companylink}>{props.company}</a></MDBCardSubTitle>
-        <MDBCardText style={{ "text-align": "left" }}><ul>{props.desc.map((point) => <li>{point}</li>)}</ul></MDBCardText>
+        <MDBCardText style={{ "textAlign": "left" }}><ul>{props.desc.map((point) => <li key="">{point}</li>)}</ul></MDBCardText>
         <MDBCardText>
           <p className='date'>{props.date}</p>
         </MDBCardText>
       </MDBCardBody>
-      {props.img != "" ? <MDBCardImage className='exp-img' position='bottom' src={process.env.PUBLIC_URL + props.img} overlay='white-slight' hover waves /> : null}
+      {props.img != "" ? <MDBCardImage className='exp-img' position='bottom' src={process.env.PUBLIC_URL + props.img} overlay='white-slight' waves /> : null}
       {props.img != "" ? <MDBCardText class="caption">{props.caption}</MDBCardText> : null}
       <div>{props.skills.map((skill) => <Button disabled variant="dark">{skill}</Button>)}</div>
       <br />
       <div>
-        {"dashboard" in props.links ? <a href={props.links["dashboard"]}><FaChartBar className="icon" /><p>dashboard</p></a> : null} 
-        {"github" in props.links ? <a href={props.links["github"]}><FaGithub className="icon" /></a> : null}
-        {"docs" in props.links ? <a href={props.links["docs"]}><FaRegFilePdf className="icon" /></a> : null}
+        {"dashboard" in props.links ? <a href={props.links["dashboard"]}><FaChartBar className="exp-icon" /><p>dashboard</p></a> : null} 
+        {"github" in props.links ? <a href={props.links["github"]}><FaGithub className="exp-icon" /></a> : null}
+        {"docs" in props.links ? <a href={props.links["docs"]}><FaRegFilePdf className="exp-icon" /></a> : null}
       </div>
     </MDBCard>
   );
@@ -37,6 +37,7 @@ const Experience = () => {
         <div>
           {exps.map((exp) => (
             <ExpCard
+              key={exp.key}
               img={exp.img}
               company={exp.at}
               job={exp.job}

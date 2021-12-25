@@ -92,6 +92,22 @@ li {
   padding-left: 130px;
   padding-right: 130px;
 }
+#contact {
+  padding-bottom: 200px !important;
+}
+.form {
+  width: 500px;
+  clear: both;
+  margin: 0 auto;
+}
+.form input {
+  width: 100%;
+  clear: both;
+}
+.form textarea {
+  width: 100%;
+  clear: both;
+}
 
 #projects {
   padding-top: 300px;
@@ -104,21 +120,32 @@ li {
   font-weight: 600;
 }
 
-.icon {
+.exp-icon {
   color: #3ca371;
   font-size: 35px;
   margin-left: 20px;
   margin-right: 20px;
   transition: transform .2s;
 }
-.icon:hover {
+.exp-icon:hover {
   transform: scale(1.2);
 }
+.proj-icon {
+  color: #3ca371;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: transform .2s;
+}
+.proj-icon:hover {
+  transform: scale(1.2);
+}
+
 button {
   margin: 10px !important;
   background-color: #2c8057 !important;
   opacity: 0.9 !important;
-
 }
 .caption {
   font-size: 12px !important;
@@ -130,25 +157,16 @@ button {
   font-size: 23px;
   color: #3ca371;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.hi-heading {
-  font-family: 'Space Mono', monospace;
-  font-size: 30px;
+input {
+  padding: 10px;
 }
+
+
+
+
+
+
+/* *************************************** */
 
 h1 {
   font-family: 'Inter', sans-serif !important;
@@ -356,58 +374,6 @@ footer {
   color: rgb(186, 197, 197);
 }
 
-.surp-subheading {
-  font-size: 16px;
-  font-family: 'Space Mono', monospace;
-  color: #42a575;
-}
-
-
-
-
-
-
-
-
-
-.hidden {
-  display: none;
-  transition: 0.3s ease-in-out;
-}
-
-.mymodal1,
-.mymodal2 {
-  height: auto;
-  background-color: #1b2941;
-  padding: 1.5rem;
-  border-radius: 5px;
-  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-}
-
-.show-modal {
-  cursor: pointer;
-}
-
-.modal-date {
-  color: #64FFB4;
-  font-family: 'Space Mono', monospace;
-  font-size: 15px;
-}
-
-.modal-company {
-  color: #CCD6F6;
-  font-size: 25px;
-}
-
-.modal-job {
-  color: #26ca7b;
-  font-size: 18px;
-  padding-bottom: 5px;
-}
-
-.modal-description {
-  font-size: 17px;
-}
 
 .card {
   margin-bottom: 40px;
