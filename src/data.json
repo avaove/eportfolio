@@ -103,14 +103,16 @@
       }
     },
     {
-      "name": "SpaceStuff",
+      "name": "3D Dust Visualizer",
       "type": "Personal project (WIP)",
-      "img": "/images/trash.jpg",
+      "img": "/images/dust-cube.png",
       "skills": [
-        "OpenGL",
-        "C++"
+        "WebGL",
+        "C++",
+        "HTML/CSS/JS",
+        "Three.js"
       ],
-      "desc": "Developing an open-source geospatial application that displays and locates every known debris object orbiting Earth in real time.",
+      "desc": "Developing an open-source geospatial application rendered with WebGL that displays a 3D interstellar dust map based on our galaxies estimated log-dust density data.",
       "links": {}
     },
     {
@@ -135,9 +137,7 @@
         "Python"
       ],
       "desc": "A python interface that maps earthquake intensity and finds the approximate affected population based on earthquake location, magnitude, population, depth, and population density.",
-      "links": {
-        "github": "https://github.com/avaove/eportfolio"
-      }
+      "links": {}
     },
     {
       "name": "ePortfolio",

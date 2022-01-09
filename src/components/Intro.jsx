@@ -1,7 +1,7 @@
 const Intro = (props) => {
   return (
     <section id="home">
-      <div className="inner" style={{ "textAlign": "left" }}>
+      <div data-aos="fade-up" className="inner" style={{ "textAlign": "left" }}>
         <h3 style={{ "color": "#64FFB4" }}>Hi, I am</h3>
         <h1 style={{ "color": "#CCD6F6" }}>Ava Oveisi.</h1>
 

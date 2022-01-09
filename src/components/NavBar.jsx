@@ -15,8 +15,8 @@ const NavBar = (props) => {
           <Nav >
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href="#painting">Paintings</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href={process.env.PUBLIC_URL + '/OveisiA_resume.pdf'} download eventKey={2}>
               Resume
             </Nav.Link>

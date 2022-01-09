@@ -21,8 +21,16 @@ button {
   opacity: 0.9 !important;
 }
 
-input {
-  padding: 10px;
+input, textarea {
+  width: 100%;
+  color: white !important;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color:#172c4b;
+  margin-bottom: 10px !important
 }
 
 h1 {
@@ -59,12 +67,21 @@ a {
   text-decoration: none !important;
 }
 
-.bg {
+.svg-bg-top {
   width: 100%;
   height: auto;
   z-index: 0;
   left: 0;
   top: 0;
+  position: absolute;
+}
+.svg-bg-bottom {
+  -webkit-transform: rotate(180deg);
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  left: 0;
+  bottom: -7600px;
   position: absolute;
 }
 
@@ -133,6 +150,20 @@ a {
 .exp-icon:hover {
   transform: scale(1.2);
 }
+
+
+.painting-caption {
+  padding-top: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.question:hover .painting-caption{
+  visibility: visible;
+  opacity: 1;
+}
+
 .proj-icon {
   color: #3ca371;
   font-size: 25px;
@@ -333,6 +364,7 @@ a {
 #experience {
   width: 88vh;
   margin: 0 auto;
+  margin-bottom: 300px;
 }
 #home {
   padding: 200px;
@@ -341,11 +373,11 @@ a {
 }
 #contact {
   padding-bottom: 200px !important;
+  margin-top: 300px;
 }
 
-#projects {
+#projects #painting {
   margin-top: 300px;
+  margin-bottom: 300px;
 }
-#painting {
-  margin-top: 300px;
-}
+

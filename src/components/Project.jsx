@@ -27,7 +27,7 @@ const Project = () => {
   return (
     <section id="projects">
       <h2 className="heading">───── Projects ─────</h2>
-      <div class="row">
+      <div class="row" data-aos="fade-right">
         {projs.map((proj) => (
           <ProjCard
             img={proj.img}
