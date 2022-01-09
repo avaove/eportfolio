@@ -13,7 +13,7 @@ const ExpCard = (props) => {
         <MDBCardSubTitle><a className="company" href={props.companylink}>{props.company}</a></MDBCardSubTitle>
         <MDBCardText style={{ "textAlign": "left" }}><ul>{props.desc.map((point) => <li key="">{point}</li>)}</ul></MDBCardText>
         <MDBCardText>
-          <p className='date'>{props.date}</p>
+          <p style={{"color": "#3ca371"}}>{props.date}</p>
         </MDBCardText>
       </MDBCardBody>
       {props.img != "" ? <MDBCardImage className='exp-img' position='bottom' src={process.env.PUBLIC_URL + props.img} overlay='white-slight' waves /> : null}

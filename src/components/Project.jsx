@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap";
-import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBCardSubTitle, MDBBtn, MDBRipple } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBCardSubTitle } from 'mdb-react-ui-kit';
 import { FaGithub, FaDev } from "react-icons/fa";
 var data = require('../data.json');
 const projs = data["projs"];

@@ -5,6 +5,7 @@ import Intro from './components/Intro'
 import NavBar from './components/NavBar'
 import Project from './components/Project'
 import Contact from './components/Contact'
+import Painting from './components/Painting'
 import PolygonBackground from './layer1.svg';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Intro />
       <Experience />
       <Project />
+      <Painting />
       <Contact/>
     </div>
   );

@@ -152,5 +152,11 @@
         "github": "https://github.com/avaove/eportfolio"
       }
     }
+  ],
+  "paintings": [
+    "/images/tree1.png",
+    "/images/tree2.png",
+    "/images/sky.png",
+    "/images/poppy.png"
   ]
 }
