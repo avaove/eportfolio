@@ -4,7 +4,7 @@
       "key": "0",
       "job": "DevOps/Automation Developer Intern",
       "at": "Seequet/Geosoft",
-      "img": "/images/seequent.png",
+      "img": "/images/seequent.jpg",
       "skills": [
         "C#",
         "React",
@@ -75,7 +75,7 @@
     {
       "name": "HomeyBot",
       "type": "Hackathon Project",
-      "img": "/images/homeybot.png",
+      "img": "/images/homeybot.jpg",
       "skills": [
         "Firebase",
         "Python",
@@ -90,7 +90,7 @@
     {
       "name": "AccessMe",
       "type": "Hackathon Project",
-      "img": "/images/accessme.png",
+      "img": "/images/accessme.jpg",
       "skills": [
         "HTML/CSS/JS",
         "WebSpeechAPI",
@@ -105,7 +105,7 @@
     {
       "name": "3D Dust Visualizer",
       "type": "Personal project (WIP)",
-      "img": "/images/dust-cube.png",
+      "img": "/images/dust-cube.jpg",
       "skills": [
         "WebGL",
         "C++",
@@ -132,7 +132,7 @@
     {
       "name": "Earthquake Intensity Mapping App",
       "type": "Personal project",
-      "img": "/images/eq-map.png",
+      "img": "/images/eq-map.jpg",
       "skills": [
         "Python"
       ],
@@ -142,7 +142,7 @@
     {
       "name": "ePortfolio",
       "type": "Personal project",
-      "img": "/images/ao.png",
+      "img": "/images/ao.jpg",
       "skills": [
         "HTML/CSS/JS",
         "React"
@@ -154,9 +154,9 @@
     }
   ],
   "paintings": [
-    "/images/tree1.png",
-    "/images/tree2.png",
-    "/images/sky.png",
-    "/images/poppy.png"
+    "/images/tree1.jpg",
+    "/images/tree2.jpg",
+    "/images/sky.jpg",
+    "/images/poppy.jpg"
   ]
 }
