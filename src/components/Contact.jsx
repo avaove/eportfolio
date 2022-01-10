@@ -1,5 +1,6 @@
 import { db } from "../firebase"
 import React, { useState } from "react";
+import { FaLinkedin, FaGithubSquare, FaEnvelope } from "react-icons/fa";
 
 const Contact = (props) => {
   const [name, setName] = useState("");
@@ -38,6 +39,10 @@ const Contact = (props) => {
           <textarea placeholder="Message" value={msg} onChange={(e) => setMsg(e.target.value)}></textarea>
           <button className="btn" type="submit" style={{ "background-color" : loader ? "#ccc" : "#2c8057", "color": "white"}}>Submit</button>
         </form>
+        <br/>
+        <a href="https://ca.linkedin.com/in/ava-oveisi/en"><FaLinkedin className="proj-icon" /></a> 
+        <a href="https://github.com/avaove"><FaGithubSquare className="proj-icon" /></a> 
+        <a href="mailto:ava.oveisi@mail.utoronto.ca"><FaEnvelope className="proj-icon" /></a> 
       </div>
     </section>
 
