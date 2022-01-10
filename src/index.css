@@ -75,7 +75,7 @@ a {
   top: 0;
   position: absolute;
 }
-.svg-bg-bottom {
+/* .svg-bg-bottom {
   -webkit-transform: rotate(180deg);
   width: 100%;
   height: auto;
@@ -83,7 +83,7 @@ a {
   left: 0;
   bottom: -7600px;
   position: absolute;
-}
+} */
 
 .card-title {
   color: #CCD6F6;

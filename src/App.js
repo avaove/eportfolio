@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <embed className="svg-bg-top" src={PolygonBackground} />
-      <embed className="svg-bg-bottom" src={PolygonBackground} />
       <NavBar />
       <Intro />
       <Experience />
