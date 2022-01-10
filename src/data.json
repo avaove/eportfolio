@@ -116,6 +116,19 @@
       "links": {}
     },
     {
+      "name": "AutoDashboard",
+      "type": "Internship side project",
+      "img": "/images/dashboard.jpg",
+      "skills": [
+        "HTML/CSS/JS",
+        "React"
+      ],
+      "desc": "Interactive real-time React dashboard to monitor test execution statuses for Seequent's QA team. This was developed during my internship.",
+      "links": {
+        "github": "https://github.com/avaove/auto-dashboard"
+      }
+    },
+    {
       "name": "Mock Unix Shell Interface",
       "type": "Group project",
       "img": "/images/shell.jpg",
