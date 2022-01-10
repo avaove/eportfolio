@@ -40,7 +40,7 @@ const Contact = (props) => {
           <button className="btn" type="submit" style={{ "background-color" : loader ? "#ccc" : "#2c8057", "color": "white"}}>Submit</button>
         </form>
         <br/>
-        <a href="https://ca.linkedin.com/in/ava-oveisi/en"><FaLinkedin className="proj-icon" /></a> 
+        <a href="https://ca.linkedin.com/in/ava-oveisi"><FaLinkedin className="proj-icon" /></a> 
         <a href="https://github.com/avaove"><FaGithubSquare className="proj-icon" /></a> 
         <a href="mailto:ava.oveisi@mail.utoronto.ca"><FaEnvelope className="proj-icon" /></a> 
       </div>
