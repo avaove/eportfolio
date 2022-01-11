@@ -25,7 +25,7 @@
       "caption": "Desktop application Oasis Montaj",
       "companylink": "https://www.seequent.com/",
       "links": {
-        "dashboard": "https://avaove.github.io/auto-dashboard/"
+        "dashboard": "https://avaove.github.io/auto-dash/"
       }
     },
     {
@@ -125,7 +125,7 @@
       ],
       "desc": "Interactive real-time React dashboard to monitor test execution statuses for Seequent's QA team. This was developed during my internship.",
       "links": {
-        "github": "https://github.com/avaove/auto-dashboard"
+        "github": "https://github.com/avaove/auto-dash"
       }
     },
     {
