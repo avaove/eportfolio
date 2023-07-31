@@ -1,18 +1,15 @@
 import './App.css';
-import 'aos/dist/aos.css'; 
-import React, { Component } from 'react';
-import Experience from './components/Experience'
-import Intro from './components/Intro'
-import NavBar from './components/NavBar'
-import Project from './components/Project'
-import Contact from './components/Contact'
-import Painting from './components/Painting'
+import 'aos/dist/aos.css';
+
+import {Contact, Experience, Intro, NavBar, Painting, Project} from './components';
+
 import PolygonBackground from './layer1.svg';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <embed className="svg-bg-top" src={PolygonBackground} />
+      <embed className="background-image" src={PolygonBackground} />
       <NavBar />
       <Intro />
       <Experience />

@@ -1,7 +1,29 @@
 {
   "experiences": [
     {
-      "key": "0",
+      "job": "Software Developer Intern",
+      "at": "Ceridian",
+      "img": "/images/seequent.jpg",
+      "skills": [
+        "C#",
+        "React",
+        "Azure Kubernetes"
+      ],
+      "date": "Jan 2023 - Aug 2023",
+      "desc": [
+        "Automated C# tests for Windows desktop application and increased testing coverage by 10%",
+        "Initiated a large scale testing codebase refactoring, reducing more than 4.2k methods and 150k lines of code",
+        "Developed GitHub Actions workflows and pipelines for automating the run of e2e web tests on virtual machines",
+        "Explored and documented latest monitoring and observability tools such as Datadog and Azure monitoring for Kubernetes cluster",
+        "Developed interactive real-time React dashboard to monitor test execution statuses for QA (link to sample version included below)"
+      ],
+      "caption": "Desktop application Oasis Montaj",
+      "companylink": "https://www.ceridian.com/",
+      "links": {
+        "dashboard": "https://avaove.github.io/auto-dash/"
+      }
+    },
+    {
       "job": "Software Developer in Test Intern",
       "at": "Seequet/Geosoft",
       "img": "/images/seequent.jpg",
@@ -29,7 +51,6 @@
       }
     },
     {
-      "key": "1",
       "job": "Machine Learning Research Assistant",
       "at": "Canadian Institute for Theoretical Astrophysics (CITA)",
       "img": "/images/dust.jpg",
@@ -52,7 +73,6 @@
       }
     },
     {
-      "key": "2",
       "job": "Frontend Web Developer",
       "at": "University of Toronto (BRIDGE Program)",
       "img": "",
@@ -73,6 +93,7 @@
   ],
   "projs": [
     {
+      "id": 0,
       "name": "HomeyBot",
       "type": "Hackathon Project",
       "img": "/images/homeybot.jpg",
@@ -88,6 +109,7 @@
       }
     },
     {
+      "id": 1,
       "name": "AccessMe",
       "type": "Hackathon Project",
       "img": "/images/accessme.jpg",
@@ -103,6 +125,7 @@
       }
     },
     {
+      "id": 2,
       "name": "3D Dust Visualizer",
       "type": "Personal project (WIP)",
       "img": "/images/dust-cube.jpg",
@@ -116,6 +139,7 @@
       "links": {}
     },
     {
+      "id": 3,
       "name": "AutoDashboard",
       "type": "Internship side project",
       "img": "/images/dashboard.jpg",
@@ -129,6 +153,7 @@
       }
     },
     {
+      "id": 4,
       "name": "Mock Unix Shell Interface",
       "type": "Group project",
       "img": "/images/shell.jpg",
@@ -143,6 +168,7 @@
       "links": {}
     },
     {
+      "id": 5,
       "name": "Earthquake Intensity Mapping App",
       "type": "Personal project",
       "img": "/images/eq-map.jpg",
@@ -153,6 +179,7 @@
       "links": {}
     },
     {
+      "id": 6,
       "name": "ePortfolio",
       "type": "Personal project",
       "img": "/images/ao.jpg",

@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 
-const NavBar = (props) => {
+import {Container, Nav, Navbar} from 'react-bootstrap';
+
+const NavBar = props => {
   return (
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
@@ -26,8 +27,8 @@ const NavBar = (props) => {
       </Container>
 
     </Navbar>
-  )
-}
+  );
+};
 
 export default NavBar;
 
