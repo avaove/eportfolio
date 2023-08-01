@@ -1,13 +1,374 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #0A192F !important;
+  margin: 10px;
+  height: 100vh !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section {
+  margin: 100px 15% 100px 15%;
+  position: relative;
 }
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100% !important;
+  height: 100%;
+}
+
+button {
+  margin: 10px !important;
+  background-color: #2c8057 !important;
+  opacity: 0.9 !important;
+}
+
+input, textarea {
+  width: 100%;
+  color: white !important;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color:#172c4b;
+  margin-bottom: 10px !important
+}
+
+h1 {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 100px !important;
+  font-weight: 800 !important;
+  margin-bottom: 20px !important;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+p {
+  color: #8892B0;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+li {
+  padding: 5px;
+}
+
+strong {
+  color: rgb(186, 197, 197);
+}
+
+a {
+  color: #8892B0;
+  font-family: 'Space Mono', monospace;
+  font-size: 15px;
+  text-decoration: none !important;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.card-title {
+  color: #CCD6F6;
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 10px;
+  font-family: "Inter",sans-serif;
+}
+.card-text {
+  color: #bec7e5;
+  font-size: 19px;
+  margin-top: 20px;
+}
+.card {
+  padding: 30px;
+  margin-bottom: 150px !important;
+  box-shadow: 15px 20px;
+  color:rgba(0, 0, 0, 0.5);
+  outline: 1px solid #747a8d;
+  transition: all .3s linear;
+  background-color:#0A192F   !important;
+  text-align: center !important;
+}
+.card-subtitle {
+  font-size: 18px !important;
+  font-weight: 800;
+}
+
+.exp-img {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 10px;
+  margin: 0, auto;
+}
+
+.form {
+  width: 500px;
+  clear: both;
+  margin: 0 auto;
+}
+.form input {
+  width: 100%;
+  clear: both;
+}
+.form textarea {
+  width: 100%;
+  clear: both;
+}
+
+.heading {
+  color: rgb(100, 255, 180);
+  padding-bottom: 35px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.exp-icon {
+  color: #3ca371;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: transform .2s;
+}
+.exp-icon:hover {
+  transform: scale(1.2);
+}
+
+
+.painting-caption {
+  padding-top: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.question:hover .painting-caption{
+  visibility: visible;
+  opacity: 1;
+}
+
+.proj-icon {
+  color: #3ca371;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: transform .2s;
+}
+.proj-icon:hover {
+  transform: scale(1.2);
+}
+
+.caption {
+  font-size: 12px !important;
+  padding: 0 !important;
+  padding-bottom: 30px !important;
+  
+}
+.company {
+  font-size: 23px;
+  color: #3ca371;
+}
+
+.intro {
+  color: #8892B0;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-right: 10%;
+}
+
+.email:hover {
+  text-decoration: none;
+  color: #64FFB4;
+  font-family: 'Space Mono', monospace;
+  font-size: 15px;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 30vh;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #64FFB4;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/*contact bar and email bar*/
+.fixed {
+  position: fixed;
+  color: #0A192F;
+  margin-top: 50vh;
+}
+
+.email {
+  left: 90%;
+  right: 0;
+  transform: rotate(-90deg);
+  font-size: 15px;
+}
+
+.bar {
+  border-left: 3px solid #8892B0;
+  height: 100vh;
+  left: 95%;
+  top: 20vh;
+}
+
+.inner {
+  padding: 5% 0 10% 0;
+}
+
+.fade-enter {}
+
+.btn {
+  margin-top: 50px;
+  outline-color: #64FFB4;
+  font-family: 'Space Mono', monospace;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: #172c4b;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:visited {
+  color: #64FFB4 !important;
+  border-color: #64FFB4 !important;
+}
+
+.box {
+  margin: 10px 10px 10px 0;
+  padding: 15px;
+  /* outline: 3px ridge #276145; */
+  height: 500px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  background-color: #23334b;
+  transition: 0.3s;
+}
+
+.box-body {
+  padding-top: 5%;
+}
+
+.job {
+  font-size: 23px;
+  color: #CCD6F6;
+  font-family: 'Inter', sans-serif;
+}
+
+.project {
+  background-color: #1b2941;
+  padding: 15px;
+  margin: 5px;
+  top: 0;
+  transition: 0.5s;
+  height: auto;
+  /* width: 300px; */
+  border-radius: 10px;
+}
+
+.project:hover {
+  top: -8px;
+  transition: 0.5s;
+}
+
+.project-top {
+  color: #CCD6F6;
+  padding-bottom: 10px;
+}
+
+.project-title {
+  color: #CCD6F6;
+  font-size: 20px;
+}
+
+.project-description {
+  color: #8892B0;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.skills {
+  font-family: 'Space Mono', monospace;
+  color: #8892B0;
+  font-size: 15px;
+}
+
+.caption {
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  padding-top: 5px;
+  color: rgb(186, 197, 197);
+}
+
+.card {
+  margin-bottom: 40px;
+}
+
+/***************************Sections*************************************/
+#proj-card {
+  padding: 0;
+  margin: 30px 15px 0 0;
+  width: 400px;
+}
+#proj-text {
+  font-size: 16px;
+  text-align: left;
+}
+#proj-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-subtitle {
+  font-size: 18px !important;
+  font-weight: 500;
+  color: #3ca371;
+}
+
+#experience {
+  width: 88vh;
+  margin: 0 auto;
+  margin-bottom: 300px;
+}
+#home {
+  padding: 200px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+#contact {
+  padding-bottom: 200px !important;
+  margin-top: 300px;
+}
+
+#projects #painting {
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+

@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import 'aos/dist/aos.css';
+
+import {Contact, Experience, Intro, NavBar, Painting, Project} from './components';
+
+import AOS from 'aos';
+import PolygonBackground from './layer1.svg';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <embed className="background-image" src={PolygonBackground} />
+      <NavBar />
+      <Intro />
+      <Experience />
+      <Project />
+      <Painting />
+      <Contact/>
     </div>
   );
 }
 
+AOS.init();
 export default App;
