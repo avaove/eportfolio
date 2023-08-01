@@ -1,9 +1,7 @@
 import './App.css';
-import 'aos/dist/aos.css';
 
 import {Contact, Experience, Intro, NavBar, Painting, Project} from './components';
 
-import AOS from 'aos';
 import PolygonBackground from './layer1.svg';
 import React from 'react';
 
@@ -21,5 +19,4 @@ function App() {
   );
 }
 
-AOS.init();
 export default App;
