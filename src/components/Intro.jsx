@@ -1,3 +1,4 @@
+import {FaEnvelope, FaGithubSquare, FaLinkedin} from 'react-icons/fa';
 
 const NameIntro = () =>
   <>
@@ -6,23 +7,33 @@ const NameIntro = () =>
   </>;
 
 const SubIntro = () =>
-  <p className="intro">I’m a <span style={{'color': '#64FFB4'}}>
-    Developer</span> and
-    a <span style={{'color': '#64FFB4'}}>Researcher</span>.
-    Currently, I am
-    studying <span style={{'color': '#64FFB4'}}>Computer Science</span> (SWE Stream) and
-  <span style={{'color': '#64FFB4'}}> Physical Sciences</span> at the University of Toronto.
+  <p className="intro"><span style={{'color': '#64FFB4'}}>
+    Software Developer</span> and Computer Science student at University
+    of Toronto
   </p>;
 
-const ContactButton = () => <a href="#contact" role="button" className="btn btn-outline-primary btn-lg">Get in Touch</a>;
+const Contacts = () =>
+  <div style={{'padding': '20px 0 0 0'}}>
+    <a href="https://ca.linkedin.com/in/ava-oveisi"><FaLinkedin className="proj-icon" /></a>
+    <a href="https://github.com/avaove"><FaGithubSquare className="proj-icon" /></a>
+    <a href="mailto:ava.oveisi@mail.utoronto.ca"><FaEnvelope className="proj-icon" /></a>
+  </div>;
+
+const Resume = () =>
+  <div className='resume'>
+    <a href={process.env.PUBLIC_URL + '/OveisiA_resume.pdf'} style={{'color': '#3ca371'}} className="link-arrow">
+      View full Resume here <p>&#10132;</p>
+    </a>
+  </div>;
 
 const Intro = () =>
   (
     <section id="home">
-      <div data-aos="fade-up" className="inner" style={{'textAlign': 'left'}}>
+      <div data-aos="fade-up" className="inner">
         <NameIntro />
         <SubIntro />
-        <ContactButton />
+        <Contacts />
+        <Resume />
       </div>
     </section>
   );

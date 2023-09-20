@@ -10,11 +10,11 @@ const exps = data['experiences'];
 const ExpCard = props => {
   return (
     <div data-aos="fade-right">
-      <MDBCard narrow col='4' className='exp-card'>
+      <MDBCard narrow col='4'>
         <MDBCardBody>
-          <MDBCardTitle>{props.job}</MDBCardTitle>
+          <MDBCardTitle style={{'color': '#CCD6F6'}}>{props.job}</MDBCardTitle>
           <MDBCardSubTitle><a className="company" href={props.companylink}>{props.company}</a></MDBCardSubTitle>
-          <MDBCardText style={{'textAlign': 'left'}}><ul>{props.desc.map(point => <li key="">{point}</li>)}</ul></MDBCardText>
+          <MDBCardText style={{'textAlign': 'left'}}>{props.desc}</MDBCardText>
           <MDBCardText>
             <p style={{'color': '#3ca371'}}>{props.date}</p>
           </MDBCardText>

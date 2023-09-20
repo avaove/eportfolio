@@ -1,20 +1,14 @@
-import './App.css';
+import {Experience, Intro, Painting, Project} from './components';
 
-import {Contact, Experience, Intro, NavBar, Painting, Project} from './components';
-
-import PolygonBackground from './layer1.svg';
 import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <embed className="background-image" src={PolygonBackground} />
-      <NavBar />
+    <div className="App container">
       <Intro />
       <Experience />
       <Project />
       <Painting />
-      <Contact/>
     </div>
   );
 }

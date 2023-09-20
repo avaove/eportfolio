@@ -1,18 +1,22 @@
-body {
-  background-color: #0A192F !important;
-  margin: 10px;
-  height: 100vh !important;
-}
-
-section {
-  margin: 100px 15% 100px 15%;
-  position: relative;
+.App {
+  text-align: center;
+  overflow-x:hidden !important
 }
 
 html {
   scroll-behavior: smooth;
   min-height: 100% !important;
-  height: 100%;
+  /* height: 100%; */
+}
+
+
+body {
+  background-color: #0A192F !important;
+}
+
+section {
+  margin: 100px 15% 100px 15%;
+  position: relative;
 }
 
 button {
@@ -35,7 +39,7 @@ input, textarea {
 
 h1 {
   font-family: 'Inter', sans-serif !important;
-  font-size: 100px !important;
+  font-size: 70px !important;
   font-weight: 800 !important;
   margin-bottom: 20px !important;
 }
@@ -89,8 +93,9 @@ a {
   margin-top: 20px;
 }
 .card {
-  padding: 30px;
-  margin-bottom: 150px !important;
+  padding: 10px;
+  margin: 10px;
+  /* margin-bottom: 150px !important; */
   box-shadow: 15px 20px;
   color:rgba(0, 0, 0, 0.5);
   outline: 1px solid #747a8d;
@@ -124,11 +129,14 @@ a {
   clear: both;
 }
 
+/* reviewed */
 .heading {
-  color: rgb(100, 255, 180);
+  color: rgb(100, 255, 180) !important;
   padding-bottom: 35px;
   font-size: 20px;
   font-weight: 600;
+  text-align: left;
+  margin-left: 10px;
 }
 
 .exp-icon {
@@ -155,16 +163,17 @@ a {
   opacity: 1;
 }
 
+/* reviewed */
 .proj-icon {
   color: #3ca371;
-  font-size: 25px;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 35px;
+  margin-right: 30px;
   transition: transform .2s;
 }
+/* reviewed */
 .proj-icon:hover {
   transform: scale(1.2);
+  color: #7ccea6;
 }
 
 .caption {
@@ -178,13 +187,13 @@ a {
   color: #3ca371;
 }
 
+/* reviewed */
 .intro {
   color: #8892B0;
   font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
-  margin-bottom: 20px;
-  margin-right: 10%;
+  /* width: 60%; */
 }
 
 .email:hover {
@@ -231,10 +240,6 @@ a {
   height: 100vh;
   left: 95%;
   top: 20vh;
-}
-
-.inner {
-  padding: 5% 0 10% 0;
 }
 
 .fade-enter {}
@@ -335,8 +340,8 @@ a {
 /***************************Sections*************************************/
 #proj-card {
   padding: 0;
-  margin: 30px 15px 0 0;
-  width: 400px;
+  /* margin: 0px 10px; */
+  /* width: 400px; */
 }
 #proj-text {
   font-size: 16px;
@@ -352,16 +357,12 @@ a {
   color: #3ca371;
 }
 
-#experience {
-  width: 88vh;
-  margin: 0 auto;
-  margin-bottom: 300px;
-}
-#home {
-  padding: 200px;
-  padding-left: 130px;
-  padding-right: 130px;
-}
+
+/* #experience {
+  text-align: left;
+  margin: 0 20%;
+} */
+
 #contact {
   padding-bottom: 200px !important;
   margin-top: 300px;
@@ -372,3 +373,52 @@ a {
   margin-bottom: 300px;
 }
 
+#home #experience {
+  position: relative !important;
+  width: 100% !important;
+  z-index: 0 !important;
+  /* display: flex; */
+  /* text-align: center; */
+  /* margin: 150px 20%; */
+  /* min-width: 10%;
+  max-width: 10%; */
+}
+
+/* other */
+.link-arrow p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  text-decoration: none!important;
+}
+
+.link-arrow:hover p {
+  transform: translateX(50%);
+}
+
+.resume {
+  margin-top: 15px;
+  color: #3ca371;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none !important;
+      /* color: inherit !important; */
+      /* 8892B0 */
+ }
+
+ a:hover {
+  color: #7ccea6 !important;
+ }
+
+ .container {
+  /* display: flex; */
+  justify-content: center; /* Center horizontally */
+  height: 100vh; /* 100% of the viewport height */
+}
+
+.right-column {
+  /* Add styles for the right column as needed */
+}

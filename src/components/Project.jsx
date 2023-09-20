@@ -28,7 +28,7 @@ const Project = () => {
   return (
     <section id="projects">
       <h2 className="heading">PROJECTS</h2>
-      <div className="row" data-aos="fade-right">
+      <div className="row" data-aos="fade-right" style={{justifyContent: 'center', display: 'flex'}}>
         {projs.map((proj, i) => (
           <ProjCard
             key={i}
