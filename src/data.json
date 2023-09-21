@@ -15,7 +15,7 @@
       "companylink": "https://www.ceridian.com/",
       "links": {
         "github": "https://github.com/avaove/TestOps.Service.Subscriber",
-        "flowchart": "https://github.com/avaove/TestOps.Service.Subscriber"
+        "flowchart": "https://miro.com/app/board/uXjVMxHwDYw=/"
       }
     },
     {
@@ -72,7 +72,7 @@
       ],
       "desc": "Designed and implemented database schema and major backend business requirements for a mock AirBnB platform accessed via APIs. Includes reports for insights, and a host toolkit to suggest how they can gain more customers.",
       "links": {
-        "github": "https://github.com/AnanyaPoddar/technica"
+        "github": "https://github.com/thermal-ice/csc_c43"
       }
     },
     {
@@ -86,8 +86,7 @@
       ],
       "desc": "An MVC web app connecting users and service providers, offering a range of services: beauty, landscaping, with filtering and scheduling capabilities.",
       "links": {
-        "github": "https://github.com/AnanyaPoddar/technica",
-        "devpost": "https://devpost.com/software/accessme"
+        "github": "https://github.com/AnanyaPoddar/Amorr"
       }
     },
     {
