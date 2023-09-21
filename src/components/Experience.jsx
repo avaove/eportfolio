@@ -1,4 +1,4 @@
-import {FaChartBar, FaGithub, FaRegFilePdf} from 'react-icons/fa';
+import {FaGithub, FaRegFilePdf, FaSitemap} from 'react-icons/fa';
 import {MDBCard, MDBCardBody, MDBCardImage, MDBCardSubTitle, MDBCardText, MDBCardTitle} from 'mdb-react-ui-kit';
 
 import {Button} from 'react-bootstrap';
@@ -10,23 +10,23 @@ const exps = data['experiences'];
 const ExpCard = props => {
   return (
     <div data-aos="fade-right">
-      <MDBCard narrow col='4'>
+      <MDBCard col='5'>
         <MDBCardBody>
           <MDBCardTitle style={{'color': '#CCD6F6'}}>{props.job}</MDBCardTitle>
-          <MDBCardSubTitle><a className="company" href={props.companylink}>{props.company}</a></MDBCardSubTitle>
-          <MDBCardText style={{'textAlign': 'left'}}>{props.desc}</MDBCardText>
-          <MDBCardText>
-            <p style={{'color': '#3ca371'}}>{props.date}</p>
+          <MDBCardSubTitle><a className="underline company" href={props.companylink}>{props.company}</a></MDBCardSubTitle>
+          <MDBCardText style={{'textAlign': 'left', 'fontSize': '15px', 'color': '#8892B0'}}>{props.desc}</MDBCardText>
+          <MDBCardText style={{'color': 'rgba(45, 200, 200)'}}>
+            {props.date}
           </MDBCardText>
         </MDBCardBody>
-        {props.img != '' ? <MDBCardImage className='exp-img' position='bottom' src={process.env.PUBLIC_URL + props.img} overlay='white-slight' waves /> : null}
-        {props.img != '' ? <MDBCardText class="caption">{props.caption}</MDBCardText> : null}
+        {props.img != '' ? <MDBCardImage className='exp-img' position='bottom' src={process.env.PUBLIC_URL + props.img} overlay='white-slight' /> : null}
+        {props.img != '' ? <MDBCardText className="caption">{props.caption}</MDBCardText> : null}
         <div>{props.skills.map((skill, i) => <Button key={i} disabled variant="dark">{skill}</Button>)}</div>
         <br />
         <div>
-          {'dashboard' in props.links ? <a href={props.links['dashboard']}><FaChartBar className="exp-icon" /><p>dashboard</p></a> : null}
           {'github' in props.links ? <a href={props.links['github']}><FaGithub className="exp-icon" /></a> : null}
           {'docs' in props.links ? <a href={props.links['docs']}><FaRegFilePdf className="exp-icon" /></a> : null}
+          {'flowchart' in props.links ? <a href={props.links['flowchart']}><FaSitemap className="exp-icon" /></a> : null}
         </div>
       </MDBCard>
     </div>
@@ -41,7 +41,7 @@ const Experience = () => {
         <div>
           {exps.map((exp, i) => (
             <ExpCard
-              key={exp.key}
+              key={i}
               img={exp.img}
               company={exp.at}
               job={exp.job}
@@ -56,7 +56,6 @@ const Experience = () => {
         </div>
       </div>
     </section>
-
   );
 };
 

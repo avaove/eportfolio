@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/material": "^5.14.10",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.1",
     "mdb-react-ui-kit": "^6.1.0",
@@ -12,7 +13,6 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
-    "react-simple-image-slider": "^2.3.0",
     "react-slideshow-image": "^3.6.0",
     "web-vitals": "^3.4.0"
   },

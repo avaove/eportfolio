@@ -10,88 +10,101 @@
         "Azure Kubernetes"
       ],
       "date": "Jan 2023 - Aug 2023",
-      "desc": [
-        "Contributed to the transition from a monolithic test engine to microservices architecture, designed and implemented a Kubernetes-hosted service for pub/sub communication and job triggering, and created an end-to-end workflow for video recording tests in a microservices architecture, benefiting numerous Test Engineers across teams while mastering Ceridian's architecture."
-      ],
-      "caption": "Desktop application Oasis Montaj",
+      "desc": "Contributed to the transition from a monolithic test engine to MS architecture by designing and implementing a Kubernetes-hosted service for pub/sub communication between services. \nCreated an end-to-end workflow for video recording UI tests in a MS architecture, benefiting numerous Test Engineers.",
+      "caption": "Video recording Selenium tests",
       "companylink": "https://www.ceridian.com/",
       "links": {
-        "dashboard": "https://avaove.github.io/auto-dash/"
+        "github": "https://github.com/avaove/TestOps.Service.Subscriber",
+        "flowchart": "https://github.com/avaove/TestOps.Service.Subscriber"
       }
     },
     {
       "job": "Software Developer in Test Intern",
-      "at": "Seequet/Geosoft",
+      "at": "Seequent",
       "img": "/images/seequent.jpg",
       "skills": [
         "C#",
         "React",
         "Python",
-        "HTML/CSS/JS",
         "Azure Kubernetes",
         "Azure Monitor",
-        "CI/CD Pipeline"
+        "CI/CD"
       ],
       "date": "May 2021 - Dec 2021",
-      "desc": [
-        "Automated C# tests for Windows desktop application and increased testing coverage by 10%",
-        "Initiated a large scale testing codebase refactoring, reducing more than 4.2k methods and 150k lines of code",
-        "Developed GitHub Actions workflows and pipelines for automating the run of e2e web tests on virtual machines",
-        "Explored and documented latest monitoring and observability tools such as Datadog and Azure monitoring for Kubernetes cluster",
-        "Developed interactive real-time React dashboard to monitor test execution statuses for QA (link to sample version included below)"
-      ],
+      "desc": "Automated C# tests for a Windows desktop app, improved testing coverage by 10%, and led a significant codebase refactoring removing >150k lines of code. \nCreated GitHub Actions workflows for running web tests, and built a real-time React dashboard for QA test monitoring.",
       "caption": "Desktop application Oasis Montaj",
       "companylink": "https://www.seequent.com/",
       "links": {
-        "dashboard": "https://avaove.github.io/auto-dash/"
+        "github": "https://github.com/avaove/auto-dash"
       }
     },
     {
-      "job": "Machine Learning Research Assistant",
+      "job": "ML Research Scholar",
       "at": "Canadian Institute for Theoretical Astrophysics (CITA)",
       "img": "/images/dust.jpg",
       "skills": [
         "Python",
-        "ML with Tensorflow",
+        "ML (Tensorflow)",
         "Jupyter Lab"
       ],
       "date": "May 2021 - Present",
       "desc": [
-        "Exploring deep learning, neural networks, and computational techniques to model the next generation of 3D dust maps",
-        "Designing and fine-tuning neural networks based on the physics involved in the problem",
-        "Extensively utilizing tensorflow, scipy, sklearn, and matplotlib python libraries and Jupyter notebook to implement designs and test accuracy using noisy simulated data"
+        "Explored deep learning methods for 3D mapping and modelling interstellar dust, designed physics-based neural networks, and tested accuracy of models with noisy simulated data."
       ],
-      "caption": "Gaia's view of dust in the milky way “A 3D Dust Map Based on Gaia, Pan-STARRS 1, and 2MASS,” Gregory M. Green et al 2019 ApJ 887 93. https://iopscience.iop.org/article/10.3847/1538-4357/ab5362",
+      "caption": "Gaia's view of dust in the milky way (Green et al 2019)",
       "companylink": "https://www.cita.utoronto.ca/",
       "links": {
         "github": "https://github.com/avaove/dust-map",
         "docs": "https://docs.google.com/document/d/1_ITitG7YQdSR8rMf2kXE0ggdWRrlQ7sb4wdpFGiopB0/edit"
       }
-    },
-    {
-      "job": "Frontend Web Developer",
-      "at": "University of Toronto (BRIDGE Program)",
-      "img": "",
-      "skills": [
-        "HTML/CSS/JS",
-        "Firebase",
-        "React"
-      ],
-      "date": "Jun 2020 – Aug 2020",
-      "desc": [
-        "Consulted with clients from local restaurants in Scarborough and researched ways to assist in elevating their web functionality to increase business marketing during the pandemic",
-        "Improved frontend navigations and design and created forms to gather user information through backend Firebase database"
-      ],
-      "caption": "",
-      "companylink": "https://www.utsc.utoronto.ca/thebridge/",
-      "links": {}
     }
   ],
   "projs": [
     {
       "id": 0,
+      "name": "MyBnB",
+      "img": "/images/mybnb.png",
+      "skills": [
+        "Firebase",
+        "Python",
+        "GoogleVisionAPI"
+      ],
+      "desc": "Designed and implemented database schema and major backend business requirements for a mock AirBnB platform accessed via APIs. Includes reports for insights, and a host toolkit to suggest how they can gain more customers.",
+      "links": {
+        "github": "https://github.com/AnanyaPoddar/technica"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Amorr",
+      "img": "/images/amorr.png",
+      "skills": [
+        "Firebase",
+        "Python",
+        "GoogleVisionAPI"
+      ],
+      "desc": "An MVC web app connecting users and service providers, offering a range of services: beauty, landscaping, with filtering and scheduling capabilities.",
+      "links": {
+        "github": "https://github.com/AnanyaPoddar/technica",
+        "devpost": "https://devpost.com/software/accessme"
+      }
+    },
+    {
+      "id": 2,
+      "name": "AutoDashboard",
+      "img": "/images/dashboard.jpg",
+      "skills": [
+        "React",
+        "Python"
+      ],
+      "desc": "Interactive real-time React dashboard to monitor test execution statuses for Seequent's QA team. Developed during my internship at Seequent.",
+      "links": {
+        "github": "https://github.com/avaove/auto-dash"
+      }
+    },
+    {
+      "id": 3,
       "name": "HomeyBot",
-      "type": "Hackathon Project",
       "img": "/images/homeybot.jpg",
       "skills": [
         "Firebase",
@@ -105,9 +118,8 @@
       }
     },
     {
-      "id": 1,
+      "id": 4,
       "name": "AccessMe",
-      "type": "Hackathon Project",
       "img": "/images/accessme.jpg",
       "skills": [
         "HTML/CSS/JS",
@@ -121,9 +133,8 @@
       }
     },
     {
-      "id": 2,
+      "id": 5,
       "name": "3D Dust Visualizer",
-      "type": "Personal project (WIP)",
       "img": "/images/dust-cube.jpg",
       "skills": [
         "WebGL",
@@ -135,37 +146,10 @@
       "links": {}
     },
     {
-      "id": 3,
-      "name": "AutoDashboard",
-      "type": "Internship side project",
-      "img": "/images/dashboard.jpg",
-      "skills": [
-        "HTML/CSS/JS",
-        "React"
-      ],
-      "desc": "Interactive real-time React dashboard to monitor test execution statuses for Seequent's QA team. This was developed during my internship.",
-      "links": {
-        "github": "https://github.com/avaove/auto-dash"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Earthquake Intensity Mapping App",
-      "type": "Personal project",
-      "img": "/images/eq-map.jpg",
-      "skills": [
-        "Python"
-      ],
-      "desc": "A python interface that maps earthquake intensity and finds the approximate affected population based on earthquake location, magnitude, population, depth, and population density.",
-      "links": {}
-    },
-    {
       "id": 6,
       "name": "ePortfolio",
-      "type": "Personal project",
       "img": "/images/ao.jpg",
       "skills": [
-        "HTML/CSS/JS",
         "React"
       ],
       "desc": "A personalized eportfolio!",
