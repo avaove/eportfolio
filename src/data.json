@@ -65,9 +65,10 @@
       "name": "MyBnB",
       "img": "/images/mybnb.png",
       "skills": [
-        "Firebase",
-        "Python",
-        "GoogleVisionAPI"
+        "Java",
+        "Springboot",
+        "MySQL",
+        "Swagger UI"
       ],
       "desc": "Designed and implemented database schema and major backend business requirements for a mock AirBnB platform accessed via APIs. Includes reports for insights, and a host toolkit to suggest how they can gain more customers.",
       "links": {
@@ -79,9 +80,9 @@
       "name": "Amorr",
       "img": "/images/amorr.png",
       "skills": [
-        "Firebase",
-        "Python",
-        "GoogleVisionAPI"
+        "React",
+        "Python [Flask]",
+        "MySQL"
       ],
       "desc": "An MVC web app connecting users and service providers, offering a range of services: beauty, landscaping, with filtering and scheduling capabilities.",
       "links": {
