@@ -12,7 +12,7 @@ paintings.forEach(e => {
 
 const Painting = () => {
   return (
-    <section id="painting">
+    <section id="paintings">
 
       <h2 className="heading">PAINTINGS</h2>
       <div className='grid'>
