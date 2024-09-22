@@ -27,7 +27,7 @@ const Contact = () => {
         <br/>
         <a href="https://ca.linkedin.com/in/ava-oveisi"><FaLinkedin className="proj-icon" /></a>
         <a href="https://github.com/avaove"><FaGithubSquare className="proj-icon" /></a>
-        <a href="mailto:ava.oveisi@mail.utoronto.ca"><FaEnvelope className="proj-icon" /></a>
+        <a href="mailto:aavaa.oveisi@gmail.com"><FaEnvelope className="proj-icon" /></a>
       </div>
     </section>
   );

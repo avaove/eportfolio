@@ -23,11 +23,13 @@ const ExpCard = props => {
         {props.img != '' ? <MDBCardText className="caption">{props.caption}</MDBCardText> : null}
         <div>{props.skills.map((skill, i) => <Button key={i} disabled variant="dark">{skill}</Button>)}</div>
         <br />
-        <div>
-          {'github' in props.links ? <a href={props.links['github']}><FaGithub className="exp-icon" /></a> : null}
-          {'docs' in props.links ? <a href={props.links['docs']}><FaRegFilePdf className="exp-icon" /></a> : null}
-          {'flowchart' in props.links ? <a href={props.links['flowchart']}><FaSitemap className="exp-icon" /></a> : null}
+        {props.links
+        && <div>
+          {'github' in props.links && <a href={props.links['github']}><FaGithub className="exp-icon" /></a>}
+          {'docs' in props.links && <a href={props.links['docs']}><FaRegFilePdf className="exp-icon" /></a>}
+          {'flowchart' in props.links && <a href={props.links['flowchart']}><FaSitemap className="exp-icon" /></a>}
         </div>
+        }
       </MDBCard>
     </div>
   );

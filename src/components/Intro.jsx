@@ -12,17 +12,11 @@ const NameIntro = () =>
     <h1 style={{'color': '#CCD6F6'}}>Ava Oveisi.</h1>
   </>;
 
-const SubIntro = () =>
-  <p className="intro"><span style={{'color': 'rgba(45, 212, 191)'}}>
-    Software Developer</span> and Computer Science student at the University
-    of Toronto
-  </p>;
-
 const Contacts = () =>
   <div style={{'padding': '20px 0 0 0'}}>
     <a href="https://ca.linkedin.com/in/ava-oveisi"><FaLinkedin className="proj-icon" /></a>
     <a href="https://github.com/avaove"><FaGithubSquare className="proj-icon" /></a>
-    <a href="mailto:ava.oveisi@mail.utoronto.ca"><FaEnvelope className="proj-icon" /></a>
+    <a href="mailto:aavaa.oveisi@gmail.com"><FaEnvelope className="proj-icon" /></a>
   </div>;
 
 const Resume = () =>
@@ -48,7 +42,6 @@ const Intro = () =>
     <section id="home">
       <div data-aos="fade-up" className="inner">
         <NameIntro />
-        <SubIntro />
         <Contacts />
         <Resume />
         <MenuItems />

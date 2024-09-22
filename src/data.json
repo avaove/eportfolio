@@ -1,6 +1,20 @@
 {
   "experiences": [
     {
+      "job": "Frontend Software Developer",
+      "at": "Bentley Systems",
+      "img": "/images/mxdeposit.png",
+      "skills": [
+        "Redux",
+        "React",
+        "Github Actions"
+      ],
+      "date": "May 2024 - Present",
+      "desc": "Revamped the Redux store design to enhance state management for data loading, status tracking, and error handling. Improved GitHub Actions pipeline efficiency by over 20% through parallel execution. Developed React-Redux features from scratch, along with unit and integration testing with Cypress.",
+      "caption": "MX Deposit WebApp",
+      "companylink": "https://www.bentley.com/"
+    },
+    {
       "job": "Software Developer Intern",
       "at": "Ceridian",
       "img": "/images/video-flowchart.png",
@@ -26,9 +40,7 @@
         "C#",
         "React",
         "Python",
-        "Azure Kubernetes",
-        "Azure Monitor",
-        "CI/CD"
+        "Github Actions"
       ],
       "date": "May 2021 - Dec 2021",
       "desc": "Automated C# tests for a Windows desktop app, improved testing coverage by 10%, and led a significant codebase refactoring removing >150k lines of code. \nCreated GitHub Actions workflows for running web tests, and built a real-time React dashboard for QA test monitoring.",
